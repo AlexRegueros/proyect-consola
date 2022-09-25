@@ -1,0 +1,108 @@
+body{
+    background-color:white;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: grey;
+    height: 58vh;
+    width: 75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 15px 15px;
+
+    
+}
+
+.mando{
+    background-color: black;
+    width: 65vw;
+    height: 25vw;
+    display: flex;
+    /* border-radius: 15px 15px 15px 15px; */
+    
+    
+
+}
+
+.mando-izq{
+    
+    background-color: rgb(255, 127, 138);
+    width: 21.6vw;
+}
+
+.mando-cen{
+    background-color: chartreuse;
+    width: 21.6vw
+}
+
+.mando-der{
+    background-color: rgb(56, 56, 58);
+    width: 21.6vw
+}
+
+.size{
+    width: 65vw;
+    height: 25vw;
+}
+
+.mando-der-sup{
+    color: red;
+    width: 22vw;
+    height:12.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.redimension{
+    max-width: 60%;
+    max-height: 40%;
+    margin-top: 50px;
+}
+
+.mando-der-inf{
+background-color:rgb(26, 236, 180);
+height: 12.5vw;
+width: 21.6;
+display: flex;
+align-items: center;
+justify-content: center;
+
+    }
+
+
+.button{
+    background-color: grey;
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px ;
+    border-radius: 10px;
+    
+}
+
+.circle-button{
+    background-color: red;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 100%;
+}
+
+#letters{
+
+color: red;
+font-size: 30px;
+
+
+ 
+}
+
