@@ -1,6 +1,7 @@
 body{
     background-color:white;
-    height: 90vh;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,11 +35,16 @@ body{
     
     background-color: rgb(255, 127, 138);
     width: 21.6vw;
+
 }
 
 .mando-cen{
-    background-color: chartreuse;
-    width: 21.6vw
+    background-color: rgb(56, 56, 58);
+    width: 21.6vw;
+    display: inline;
+   
+    
+    
 }
 
 .mando-der{
@@ -101,8 +107,47 @@ justify-content: center;
 
 color: red;
 font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 
- 
+ }
+
+#linea-1{
+    background-color: cadetblue;
+    height: 45px;
+    margin-bottom: 15px;
+    
 }
 
+#linea-2{
+    background-color: brown;
+    height: 40px;
+    margin-bottom: 15px;
+
+}
+#linea-3{
+    background-color: coral;
+    height: 40px;
+    margin-bottom: 13px;
+}
+
+#linea-4{
+    background-color: darkgoldenrod;
+    height: 95px;
+    margin-bottom: 13px;
+}
+
+#linea-5{
+    background-color: bisque;
+    height: 35px;
+    margin-top: 22px;
+    
+}
+
+#direcciones{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
