@@ -9,7 +9,7 @@ body{
 
 
 .container{
-    background-color: grey;
+    background-color: rgb(198, 197, 197);
     height: 58vh;
     width: 75vw;
     display: flex;
@@ -17,7 +17,7 @@ body{
     align-items: center;
     border-radius: 15px 15px 15px 15px;
 
-    
+
 }
 
 .mando{
@@ -26,25 +26,76 @@ body{
     height: 25vw;
     display: flex;
     /* border-radius: 15px 15px 15px 15px; */
-    
-    
+
+
 
 }
 
 .mando-izq{
-    
-    background-color: rgb(255, 127, 138);
+
+    background-color: rgb(56, 56, 58);
     width: 21.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
 
 }
+
+#direcciones{
+    background-color: black;
+    width: 180px;
+    height: 180px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+
+#flechas2{
+    background-color: blueviolet;
+}
+
+
+
+#flechas4{
+    background-color: rgb(20, 113, 190);
+}
+
+#flechas5{
+    background-color: rgb(106, 0, 135);
+}
+
+#flechas6{
+    background-color: rgb(8, 8, 8);
+}
+
+
+#flechas8{
+    background-color: rgb(42, 165, 155);
+}
+
+
+
+.vacio{
+    background-color:rgb(56, 56, 58) ;
+}
+
+
+
+
+
 
 .mando-cen{
     background-color: rgb(56, 56, 58);
     width: 21.6vw;
     display: inline;
-   
-    
-    
+
+
+
 }
 
 .mando-der{
@@ -64,7 +115,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .redimension{
@@ -74,7 +125,7 @@ body{
 }
 
 .mando-der-inf{
-background-color:rgb(26, 236, 180);
+background-color: rgb(56, 56, 58);
 height: 12.5vw;
 width: 21.6;
 display: flex;
@@ -85,15 +136,16 @@ justify-content: center;
 
 
 .button{
-    background-color: grey;
+    background-color:rgb(198, 197, 197);
     width: 7vw;
     height: 7vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px ;
+    margin-right: 12px ;
     border-radius: 10px;
-    
+
+
 }
 
 .circle-button{
@@ -107,47 +159,87 @@ justify-content: center;
 
 color: red;
 font-size: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
+
 
 
  }
 
 #linea-1{
-    background-color: cadetblue;
+    background-color:rgb(198, 197, 197);
     height: 45px;
     margin-bottom: 15px;
-    
+    border-radius: 0px 0px 10px 10px;
+
 }
 
 #linea-2{
-    background-color: brown;
+    background-color:rgb(198, 197, 197);
     height: 40px;
     margin-bottom: 15px;
+    border-radius: 10px;
 
 }
 #linea-3{
-    background-color: coral;
+    background-color:rgb(198, 197, 197);
     height: 40px;
     margin-bottom: 13px;
-}
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+    color: red;
 
-#linea-4{
-    background-color: darkgoldenrod;
-    height: 95px;
-    margin-bottom: 13px;
-}
-
-#linea-5{
-    background-color: bisque;
-    height: 35px;
-    margin-top: 22px;
     
 }
 
-#direcciones{
-    background-color: brown;
-    width: 200px;
-    height: 200px;
+#linea-4{
+    background-color:rgb(198, 197, 197);
+    height: 95px;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#linea-5{
+    background-color:rgb(198, 197, 197);
+    height: 35px;
+    margin-top: 22px;
+    border-radius:10px 10px 0px 0px;
+
+}
+
+
+
+.select{
+    font-size: 25px;
+    margin: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+.marco{
+   background-color: rgb(198, 197, 197);
+   width: 250px;
+   height: 70px;
+   border-radius: 10px;
+   border-left: 90px;
+   border-width: 2px;
+   border-style:solid;
+   border-color: rgb(156, 152, 152);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+
+}
+
+.marco-botton{
+    background-color: rgb(56, 56, 58);
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
