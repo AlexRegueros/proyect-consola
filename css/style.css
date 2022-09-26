@@ -70,8 +70,7 @@ main{
     
 }
 
-
-
+  
 #flechas2{
     background-color:rgb(56, 56, 58);
     display: flex;
@@ -117,7 +116,6 @@ main{
     border-radius: 0px 8px 8px 0px;
    
 
-    
 
 }
 
@@ -138,8 +136,6 @@ main{
 .vacio{
     background-color:rgb(56, 56, 58) ;
 }
-
-
 
 
 
